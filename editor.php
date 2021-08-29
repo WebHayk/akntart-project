@@ -7,10 +7,11 @@
     <link rel = "stylesheet" href = "assets/css/editor.css">
 	<link rel = "stylesheet" href = "assets/fonts/style.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="SHORTCUT ICON" href="assets/images/favicon.ico" type="image/x-icon">
     <title>Գործիք</title>
   </head>
   <body id = "body">
-
+  <?php include 'preloader.php' ?>
 
    <div class = "modal-result" id = "resulting">
        <div class = "modal-result__content content">

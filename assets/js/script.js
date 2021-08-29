@@ -1,4 +1,5 @@
-  let upload_img_box = document.querySelector('.upload_img_box');
+
+ let upload_img_box = document.querySelector('.upload_img_box');
   let selectedImage = document.querySelector('#selectedImage');
   let choose_image = document.querySelector('.choose_image');
   let download_button = document.querySelector('#download_btn');

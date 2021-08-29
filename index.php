@@ -7,11 +7,15 @@
     <link rel = "stylesheet" href = "assets/css/style.css">
 	<link rel = "stylesheet" href = "assets/css/wowanimate.css">
 	<link rel = "stylesheet" href = "assets/fonts/style.css">
+	<link rel="SHORTCUT ICON" href="assets/images/favicon.ico" type="image/x-icon">
 	<script src = "assets/js/wow.min.js"></script>
 	<script>new WOW().init();</script>
     <title>Գլխավոր</title>
   </head>
   <body>
+
+   <?php include 'preloader.php' ?>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
@@ -81,7 +85,7 @@
 			  </div>
 		</div>
 		<div class = "main_right_block wow fadeInRight" data-wow-duration="1.2s">
-            <img src = "assets/images/images-group.svg">
+            <img src = "assets/images/images-group.svg" loading = "lazy">
 		</div>
 	</div>
 </section>
